@@ -14,7 +14,7 @@
 				</router-link>
 			</li>
 		</ul>
-		<div class='menu__toggle' @click='menuToggleState = !menuToggleState'>
+		<div class='menu__toggle' @click='setMenuToggleState'>
 			{{ menuToggleState ? '>' : '<' }}
 		</div>
 	</div>
@@ -22,8 +22,11 @@
 
 <script setup lang='ts'>
 import { ref } from 'vue'
+import {mainStore} from "@s/main";
+import {storeToRefs} from "pinia";
 
-const menuToggleState = ref(false)
+const {setMenuToggleState} = mainStore()
+const {menuToggleState} = storeToRefs(mainStore())
 </script>
 
 <style scoped lang='scss'>

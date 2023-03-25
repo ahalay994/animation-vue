@@ -1,39 +1,116 @@
 <template>
-    <div class="page-block flex justify-center items-center w-full h-full">
-        <form @submit.prevent="loginEvent" class="form flex flex-col gap-2">
+    <div class="page-block flex justify-center items-center w-full h-full px-4">
+        <v-form @submit="loginEvent" title="Войти в систему" submit-text="Войти">
+            <text-field
+                id="email"
+                type="email"
+                v-model="form.email"
+                :required="true"
+                label="E-mail"
+                :autocomplete="true"
+            />
 
-            <h2 class="form__title">Войти в систему</h2>
-
-            <div class="form__field relative">
-                <input class="form__field_input" id="email" type="email" v-model="form.email" required
-                       placeholder="E-mail">
-                <label class="form__field_label" for="email">E-mail</label>
-            </div>
-            <div class="form__field relative">
-                <input class="form__field_input" id="password" type="password" v-model="form.password" required minlength="6"
-                       placeholder="Пароль">
-                <label class="form__field_label" for="password">Пароль</label>
-            </div>
-
-            <button class="form__button" type="submit">Войти</button>
-        </form>
+            <text-field
+                id="password"
+                type="password"
+                v-model="form.password"
+                :required="true"
+                label="Пароль"
+                :minlength="6"
+                :autocomplete="true"
+            />
+        </v-form>
     </div>
+
+    <teleport to="body">
+        <div class="success-surprise" v-if="successSurpriseVisible">
+            <img src="src/assets/cat.svg" alt="">
+        </div>
+    </teleport>
 </template>
 
 <script setup lang="ts">
-import {reactive} from "vue";
+import {onUnmounted, reactive, ref} from "vue";
+import TextField from '@c/Form/TextField.vue'
+import VForm from '@c/Form/index.vue'
 
 const form = reactive({
     email: '',
     password: '',
 })
 
+const successSurpriseVisible = ref(false)
 const loginEvent = () => {
-
+    successSurpriseVisible.value = true
+    setTimeout(() => successSurpriseVisible.value = false, 10000)
 }
+
+onUnmounted(() => {
+    form.email = '';
+    form.password = '';
+})
 </script>
 
 <style scoped lang="scss">
+.success-surprise {
+    position: fixed;
+    background: rgba(173, 126, 255, 0.1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease-in-out;
+
+    img {
+        opacity: 0;
+        transition: .3s ease-in-out;
+        position: absolute;
+        width: 150px;
+        animation: alternate;
+        animation-duration: 10s;
+        animation-name: cat;
+    }
+
+    @keyframes cat {
+        0% {
+            opacity: 1;
+            top: 0;
+            left: 0;
+        }
+        16.66% {
+            opacity: 1;
+            top: 0;
+            left: calc(100% - 150px);
+        }
+        33.33% {
+            opacity: 1;
+            top: calc(100% - 150px);
+            left: calc(100% - 150px);
+        }
+        50% {
+            opacity: 1;
+            top: calc(100% - 150px);
+            left: 0;
+        }
+        66.66% {
+            opacity: 1;
+            top: 0;
+            left: 0;
+        }
+        83.33% {
+            opacity: 1;
+            top: 50%;
+            left: 50%;
+        }
+        100% {
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: rotate(360deg);
+        }
+    }
+}
+
 .page-block {
     width: 100%;
     height: 100%;
