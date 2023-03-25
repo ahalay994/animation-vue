@@ -7,7 +7,7 @@
                 v-model="form.email"
                 :required="true"
                 label="E-mail"
-                :autocomplete="true"
+                name="email"
             />
 
             <text-field
@@ -17,14 +17,14 @@
                 :required="true"
                 label="Пароль"
                 :minlength="6"
-                :autocomplete="true"
+                name="password"
             />
         </v-form>
     </div>
 
     <teleport to="body">
         <div class="success-surprise" v-if="successSurpriseVisible">
-            <img src="src/assets/cat.svg" alt="">
+            <img src="/src/assets/cat.svg" alt="">
         </div>
     </teleport>
 </template>

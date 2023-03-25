@@ -3,12 +3,13 @@
         <input
             :id="id"
             class="form__field_input"
-            v-model="modelValue"
+            :value="modelValue"
+            :name="name"
             :type="type"
             :required="required"
             :placeholder="label"
             :minlength="minlength"
-            :autocomplete="autocomplete"
+            :autocomplete="name"
             @input='inputEvent'
         >
         <label v-if="label" class="form__field_label" :for="id">{{label}}</label>
@@ -16,19 +17,19 @@
 </template>
 
 <script setup lang="ts">
-const {modelValue, required, label, id, type, minlength, autocomplete} = withDefaults(defineProps<{
+const {modelValue, required, label, id, type, minlength, name} = withDefaults(defineProps<{
     modelValue: string
     required?: boolean
     type?: string
+    name?: string | undefined
     id: string
     label?: string
     minlength?: number
-    autocomplete?: boolean
 }>(), {
     required: false,
     type: 'string',
     minlength: 0,
-    autocomplete: false,
+    name: undefined,
 })
 
 const emits = defineEmits<{
