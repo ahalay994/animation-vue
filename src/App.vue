@@ -2,7 +2,7 @@
     <left-menu/>
     <main class="w-full">
         <router-view v-slot="{ Component, route }">
-            <transition name="route" mode="out-in" appear>
+            <transition name="route" mode="out-in" appear :key="route.path">
                 <component :is="Component"/>
             </transition>
         </router-view>
@@ -17,7 +17,6 @@ import LeftMenu from '@c/Menu.vue'
 <style scoped lang="scss">
 .route-enter-from {
     transform: scale(0);
-    border-radius: 50%;
 }
 
 .route-enter-active,
@@ -27,7 +26,6 @@ import LeftMenu from '@c/Menu.vue'
 
 .route-leave-to {
     transform: scale(0);
-    border-radius: 50%;
 }
 
 a {
