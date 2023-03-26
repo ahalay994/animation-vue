@@ -13,6 +13,12 @@
 					<span class='title'>Войти</span>
 				</router-link>
 			</li>
+			<li>
+				<router-link class='menu__link' :to="{ name: 'animate' }">
+					<span class='icon'>§</span>
+					<span class='title'>Animate</span>
+				</router-link>
+			</li>
 		</ul>
 		<div class='menu__toggle' @click='setMenuToggleState'>
 			{{ menuToggleState ? '>' : '<' }}
