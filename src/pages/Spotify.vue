@@ -101,7 +101,7 @@
 	bottom: 0;
 
 	&__eye-right {
-		animation: linear;
+		animation: linear infinite;
 		animation-duration: 4s;
 		animation-delay: 9s;
 		animation-fill-mode: both;
@@ -148,7 +148,7 @@
 	}
 
 	&__eye-left {
-		animation: linear;
+		animation: linear infinite;
 		animation-duration: 4s;
 		animation-delay: 9s;
 		animation-name: eye-open-left;
@@ -195,7 +195,7 @@
 	}
 
 	&__pupil-right {
-		animation: linear;
+		animation: linear infinite;
 		animation-duration: 6s;
 		animation-delay: 2s;
 		animation-fill-mode: both;
@@ -218,7 +218,7 @@
 	}
 
 	&__pupil-left {
-		animation: linear;
+		animation: linear infinite;
 		animation-duration: 6s;
 		animation-delay: 2s;
 		animation-fill-mode: both;
@@ -247,7 +247,7 @@
 	left: -150px;
 	width: 150px;
 
-	animation: linear;
+	animation: linear infinite;
 	animation-duration: 6s;
 	animation-fill-mode: both;
 	animation-name: eye-mouse;
