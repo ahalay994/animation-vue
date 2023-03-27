@@ -196,7 +196,7 @@
 
 	&__pupil-right {
 		animation: linear infinite;
-		animation-duration: 6s;
+		animation-duration: 11s;
 		animation-delay: 2s;
 		animation-fill-mode: both;
 		animation-name: eye-pupil-right;
@@ -219,7 +219,7 @@
 
 	&__pupil-left {
 		animation: linear infinite;
-		animation-duration: 6s;
+		animation-duration: 11s;
 		animation-delay: 2s;
 		animation-fill-mode: both;
 		animation-name: eye-pupil-left;
@@ -231,8 +231,11 @@
 			2% {
 				transform: translate(-80px, 30px);
 			}
-			98% {
+			50% {
 				transform: translate(-80px, 30px);
+			}
+			52% {
+				transform: translate(0, 0);
 			}
 			100% {
 				transform: translate(0, 0);
@@ -244,26 +247,33 @@
 .mouse {
 	position: absolute;
 	bottom: 0;
-	left: -150px;
 	width: 150px;
 
 	animation: linear infinite;
-	animation-duration: 6s;
+	animation-duration: 13s;
 	animation-fill-mode: both;
 	animation-name: eye-mouse;
 
 	@keyframes eye-mouse {
 		0% {
-			left: -100px;
+			transform: rotate(0deg);
+			left: -50%;
 		}
 		2% {
+			transform: rotate(0deg);
 			left: 200px;
 		}
-		98% {
+		50% {
+			transform: rotate(180deg);
 			left: 200px;
+		}
+		52% {
+			transform: rotate(0deg);
+			left: -50%;
 		}
 		100% {
-			left: -100px;
+			transform: rotate(0deg);
+			left: -50%;
 		}
 	}
 }
