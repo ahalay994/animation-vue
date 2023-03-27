@@ -2,9 +2,9 @@
     <left-menu/>
     <main class="w-full">
         <router-view v-slot="{ Component, route }">
-            <transition name="route" mode="out-in" appear :key="route.path">
+<!--            <transition name="route" mode="out-in" appear :key="route.path">-->
                 <component :is="Component"/>
-            </transition>
+<!--            </transition>-->
         </router-view>
     </main>
 </template>
