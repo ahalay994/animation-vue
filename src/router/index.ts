@@ -3,6 +3,7 @@ import {createRouter, createWebHashHistory, RouteRecordRaw} from 'vue-router'
 import Home from '@p/Home.vue'
 import Login from '@p/Login.vue'
 import Animate from '@p/Animate.vue'
+import Spotify from '@p/Spotify.vue'
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -19,6 +20,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'animate',
         path: '/animate',
         component: Animate,
+    },
+    {
+        name: 'spotify',
+        path: '/spotify',
+        component: Spotify,
     },
 ]
 
