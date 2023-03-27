@@ -261,11 +261,11 @@
 		}
 		2% {
 			transform: rotate(0deg);
-			left: 200px;
+			left: 25%;
 		}
 		50% {
 			transform: rotate(180deg);
-			left: 200px;
+			left: 25%;
 		}
 		52% {
 			transform: rotate(0deg);
