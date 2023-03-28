@@ -20,9 +20,15 @@
 				</router-link>
 			</li>
 			<li>
-				<router-link class='menu__link' :to="{ name: 'spotify' }">
+				<router-link class='menu__link' :to="{ name: 'catAndMouse1' }">
 					<span class='icon'>╚</span>
-					<span class='title'>Spotify</span>
+					<span class='title'>Кот и мышь - Безумная любовь</span>
+				</router-link>
+			</li>
+			<li>
+				<router-link class='menu__link' :to="{ name: 'catAndMouse2' }">
+					<span class='icon'>╚</span>
+					<span class='title'>Кот и мышь - Мы сошли с ума</span>
 				</router-link>
 			</li>
 		</ul>

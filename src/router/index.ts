@@ -4,6 +4,8 @@ import Home from '@p/Home.vue'
 import Login from '@p/Login.vue'
 import Animate from '@p/Animate.vue'
 import Spotify from '@p/Spotify.vue'
+import CatAndMouse1 from '@p/CatAndMouse1.vue'
+import CatAndMouse2 from '@p/CatAndMouse2.vue'
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -25,6 +27,16 @@ const routes: Array<RouteRecordRaw> = [
         name: 'spotify',
         path: '/spotify',
         component: Spotify,
+    },
+    {
+        name: 'catAndMouse1',
+        path: '/cat-and-mouse-1',
+        component: CatAndMouse1,
+    },
+    {
+        name: 'catAndMouse2',
+        path: '/cat-and-mouse-2',
+        component: CatAndMouse2,
     },
 ]
 
