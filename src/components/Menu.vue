@@ -31,8 +31,14 @@
 					<span class='title'>Кот и мышь - Мы сошли с ума</span>
 				</router-link>
 			</li>
+			<li>
+				<router-link class='menu__link' :to="{ name: 'catAndMouse3' }">
+					<span class='icon'>╚</span>
+					<span class='title'>Кот и мышь - любов лямур</span>
+				</router-link>
+			</li>
 		</ul>
-		<div class='menu__toggle' @click='setMenuToggleState'>
+		<div class='menu__toggle cursor-pointer z-40' @click='setMenuToggleState'>
 			{{ menuToggleState ? '>' : '<' }}
 		</div>
 	</div>

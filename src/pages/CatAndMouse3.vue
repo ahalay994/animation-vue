@@ -28,21 +28,28 @@
 			<path
 				d='M290.49 344.13a39 39 0 0 0-3.83 7.74c-2.25 5.69-3.2 16.51-2.75 24.76.47 8.7 3.21 15.59 9.17 21.1s13.3 11 17.89 12.84 11.92 4.13 19.72 0 17.42-9.17 22.93-15.59 8.25-17 13.3-23.39 10.08-13.76 17.42-16 12.38-4.59 24.31-3.21 24.3 3.93 30.72 7.7 11 4.68 16.06 10.18 6.57 9.49 8.71 16.51c2.1 6.87 6.42 12.84-3.21 16.51s-16.51 4.59-28.43 4.59-21.1-.92-28-.46M439.37 341.32a58.3 58.3 0 0 0-14.67-17.89c-10.09-8.25-13.76-13.3-31.64-14.67s-30.73-2.75-44 0-41.27 13.76-50 24.3a132.94 132.94 0 0 0-8.55 11.07'
 				class='cls-5' />
-			<circle cx='132.7' cy='154.83' r='84.89' class='cls-6' />
+			<path
+				d='M217.59 154.83a84.89 84.89 0 0 1-84.89 84.9c-46.24 0-78-39.43-83.87-71.68a61.63 61.63 0 0 1-1-13.22c1.11-34.32 31.4-84.89 84.89-84.89a84.89 84.89 0 0 1 84.87 84.89Z'
+				class='cls-6' />
 			<circle cx='277.34' cy='167.44' r='84.89' class='cls-6' />
 			<path
 				d='M250.77 33.37c-9.63 19-16 33.84-16 33.84M268.7 57a236.21 236.21 0 0 0 13.57-23.61M216.2 36.11a208.35 208.35 0 0 0-2 25.47M76.29 256.53c-41.14 35.93-43 57.42-43 57.42M75 243c-51.52 18.44-59.79 37.24-59.79 37.24M72.08 235.47c-56.57-.58-70.28 13.72-70.28 13.72M390.82 232.43c59.79 20.18 71.32 39.81 71.32 39.81M386.24 219.2c63.1.22 80.25 15.2 80.25 15.2M386 211.18c60-19.37 81-10.45 81-10.45'
 				class='cls-1' />
-			<ellipse cx='193.81' cy='234.4' class='cls-7' rx='12.86' ry='8.94'
-					 transform='rotate(-60 193.807 234.397)' />
-			<ellipse cx='168.03' cy='162.55' class='cls-7 eye-left' rx='11.38' ry='9.92' transform='rotate(-60 168.026 162.55)' />
-			<ellipse cx='244.83' cy='157.33' class='cls-7 eye-right' rx='11.38' ry='9.92' transform='rotate(-60 244.834 157.336)' />
 			<path
 				d='M633.28 401.51c-2.13 1.88-3.31 1.89-11.82 3.15-11.21 1.67-17.56 3-17.56 3a278.38 278.38 0 0 1-36.47 4.72c-18.49 1-23.5 1.06-42.09 0-14.77-.85-20.3-2.14-25.33-7.07-7.17-7-9.15-17.34-10.52-24.5-2.38-12.36-1-21.64 1.56-39.58 1.49-10.36 3.5-23.77 9.35-40.05 3.35-9.34 6-16.56 11.69-24.5 4.26-6 10.6-14.8 21.43-18.38 3.43-1.13 15.64-5.15 24.55 2.83 8.13 7.28 8.87 20.4 9.74 35.81.57 10 1.2 21.06-2.72 33.92a352.6 352.6 0 0 1-14.42 39.58c-.49 1.08-2.3 5-1.17 6.6 1.28 1.82 5.34.25 11.5 0 4-.15 4.57-.18 11.33.69 20.39 2.64 19.18 2.39 24.71 3.07'
 				class='cls-1' />
 			<path
 				d='M563 412.54c2.13 1.9 8.46 2.74 11.2 1.34 7.89-4.05 10.59-14.48 10.71-20.53.25-12-9.74-14.84-11.08-15.09-1-.19 1.14 5.37 0 12.39-2.08 13.91-14.62 18.47-10.83 21.89ZM504.38 292c-1.4 3.15 2 10.17 6.23 12.34 12.23 6.24 30.67 3.92 40.3 1.07C570 299.8 567 288 566.44 286.47c-.45-1.15-7.62 3.83-19.49 6.15-23.52 4.58-40.02-6.26-42.57-.62ZM498.82 398.73c-.34 3.51 4.59 9.76 8.91 10.91 12.45 3.29 27.91-3.54 35.53-8.77 15.09-10.35 9.19-21.53 8.24-22.91-.72-1-5.58 5.72-15.31 11-19.27 10.31-36.74 3.42-37.37 9.77ZM489.5 354.7c-1.52 3.1 2.12 10 6.7 12.13 13.16 6.13 33 3.85 43.37 1.05 20.55-5.56 17.37-17.17 16.72-18.66-.49-1.12-8.2 3.77-21 6-25.29 4.55-43.06-6.1-45.79-.52ZM494.88 323.51c-1.61 3.1 2.25 10 7.1 12.13 13.95 6.13 35 3.85 46 1.05 21.77-5.56 18.41-17.17 17.72-18.66-.52-1.12-8.69 3.77-22.23 6-26.87 4.55-45.69-6.1-48.59-.52Z'
 				class='cls-8' />
+			<path
+				d='M54.78 187.87a120.86 120.86 0 0 0 44.34 21.27c27.19 6.75 50 4 63.17-.81 23.52-8.51 22.64-7.87 34.34-15.83'
+				class='cls-1 cat__eye-left' />
+			<path
+				d='M196.63 191.86A120.71 120.71 0 0 0 241 213.12c27.19 6.76 49.47 2.15 63.17-.81a157.16 157.16 0 0 0 55.18-23.59'
+				class='cls-6 cat__eye-right' />
+			<ellipse cx='193.81' cy='234.4' class='cls-7' rx='12.86' ry='8.94' transform='rotate(-60 193.807 234.397)' />
+			<ellipse cx='168.03' cy='162.55' class='cls-7 cat__pupil-left' rx='11.38' ry='9.92' transform='rotate(-60 168.026 162.55)' />
+			<ellipse cx='244.83' cy='157.33' class='cls-7 cat__pupil-right' rx='11.38' ry='9.92' transform='rotate(-60 244.834 157.336)' />
 		</svg>
 
 		<!-- Мышь -->
@@ -67,11 +74,13 @@
 		</svg>
 
 		<!-- Вилка -->
-		<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100.34 135.79' class='fork'>
-			<path
-				d='M3 20.85c-.71 2.73-.69 5.95.25 7.75a74 74 0 0 0 6.47 10.3c5 7.22 5.26 6.72 7.75 10.89 1.47 2.46 2.78 4.4 4.22 6.87 2.3 3.93 3.67 4.5 5.3 4.81.49.09 1 .07 5.59-1.91 3.56-1.55 3.87-1.91 4.57-1.77 2.74.54 6.43 6.41 6.91 7.65 7.49 19.31 18.4 22.56 30.76 50.78 0 0 5 13.42 12.66 16.49a9 9 0 0 0 3.24.58 8.15 8.15 0 0 0 6.48-3.53c1.76-3-.45-7.34-2.65-11.18-5.83-10.16-11.29-16.58-15.31-21.79-9.68-12.47-6.69-12-14.42-20.9-4.64-5.33-8-11.72-13-16.78-1.16-1.19-4.4-4.43-3.82-7.94a6.47 6.47 0 0 1 1.76-3.34c1.8-1.7 3.38-.89 6.09-2.26.46-.23 3.58-1.85 4.41-4.61S60 35 58.93 33.43c-9-14.1-9.25-16.18-19.65-28.33-1.71-2-4.16-2.92-5.08-2.5-1.29.59-3.15 3.5-1.47 7.65 1.61 4 6.86 9.88 8.54 13 2.68 5 3.06 5.08 4 7.94a42.08 42.08 0 0 0 1.23 4.54c.46 1.42.09 3.55-2 3.78-1.52.17-4.74-.59-5.32-1.82A75.51 75.51 0 0 0 33 27c-4.29-6.62-3.67-5.45-8.83-11.77-2.58-3.18-4.53-5.06-6-5-4 .14-3.45 2.42-2.85 4.91.49 2 .57 3.75 4 8.63s5.62 7 7.75 10.11 3.47 4.22 4.85 7.26a7.84 7.84 0 0 1 1.13 5.2c-.07 1.94-4.06 1.72-6.08.78s-2.4-3.07-4.32-6.18c-3.78-6.13-3.45-4.74-8.14-11.28-2.33-3.24-2.85-4.37-5.4-8.54C8.4 19.86 6 18 4.47 18.59 3.49 19 3.15 20.28 3 20.85Z'
-				style='fill:#32a1d9;stroke:#020303;stroke-miterlimit:10;stroke-width:5px' />
-		</svg>
+		<template v-for='i in 7'>
+			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100.34 135.79' :class='`fork fork-${i}`'>
+				<path
+					d='M3 20.85c-.71 2.73-.69 5.95.25 7.75a74 74 0 0 0 6.47 10.3c5 7.22 5.26 6.72 7.75 10.89 1.47 2.46 2.78 4.4 4.22 6.87 2.3 3.93 3.67 4.5 5.3 4.81.49.09 1 .07 5.59-1.91 3.56-1.55 3.87-1.91 4.57-1.77 2.74.54 6.43 6.41 6.91 7.65 7.49 19.31 18.4 22.56 30.76 50.78 0 0 5 13.42 12.66 16.49a9 9 0 0 0 3.24.58 8.15 8.15 0 0 0 6.48-3.53c1.76-3-.45-7.34-2.65-11.18-5.83-10.16-11.29-16.58-15.31-21.79-9.68-12.47-6.69-12-14.42-20.9-4.64-5.33-8-11.72-13-16.78-1.16-1.19-4.4-4.43-3.82-7.94a6.47 6.47 0 0 1 1.76-3.34c1.8-1.7 3.38-.89 6.09-2.26.46-.23 3.58-1.85 4.41-4.61S60 35 58.93 33.43c-9-14.1-9.25-16.18-19.65-28.33-1.71-2-4.16-2.92-5.08-2.5-1.29.59-3.15 3.5-1.47 7.65 1.61 4 6.86 9.88 8.54 13 2.68 5 3.06 5.08 4 7.94a42.08 42.08 0 0 0 1.23 4.54c.46 1.42.09 3.55-2 3.78-1.52.17-4.74-.59-5.32-1.82A75.51 75.51 0 0 0 33 27c-4.29-6.62-3.67-5.45-8.83-11.77-2.58-3.18-4.53-5.06-6-5-4 .14-3.45 2.42-2.85 4.91.49 2 .57 3.75 4 8.63s5.62 7 7.75 10.11 3.47 4.22 4.85 7.26a7.84 7.84 0 0 1 1.13 5.2c-.07 1.94-4.06 1.72-6.08.78s-2.4-3.07-4.32-6.18c-3.78-6.13-3.45-4.74-8.14-11.28-2.33-3.24-2.85-4.37-5.4-8.54C8.4 19.86 6 18 4.47 18.59 3.49 19 3.15 20.28 3 20.85Z'
+					style='fill:#32a1d9;stroke:#020303;stroke-miterlimit:10;stroke-width:5px' />
+			</svg>
+		</template>
 
 		<!-- Сердце-->
 		<template v-for='i in 10'>
@@ -84,133 +93,320 @@
 	</div>
 </template>
 
+<script setup lang='ts'></script>
+
 <style scoped lang='scss'>
-.animation-container {
-	position: relative;
+.cat {
+	width: 450px;
+	position: absolute;
+	right: calc(50% - 225px);
+	bottom: 0;
 
-	.cat {
-		position: absolute;
-		bottom: 0;
-		right: 50%;
-		width: 200px;
+	&__eye-right {
+		animation: linear infinite;
+		animation-duration: 13s;
+		animation-delay: 9s;
+		animation-fill-mode: both;
+		animation-name: eye-open-right;
 
-		.eye {
-			&-left {
-				animation: infinite linear;
-				animation-name: cat-eye-left;
-				animation-duration: 1s;
+		@keyframes eye-open-right {
+			0% {
+				transform: translate(115px, 124px) scale(0.59);
 			}
-
-			&-right {
-				animation: infinite linear;
-				animation-name: cat-eye-left;
-				animation-duration: 1s;
+			0.25% {
+				transform: translate(56px, 70px) scale(0.8);
+			}
+			0.5% {
+				transform: translate(42px, 55px) scale(0.85);
+			}
+			0.75% {
+				transform: translate(28px, 39px) scale(0.9);
+			}
+			1% {
+				transform: translate(13px, 22px) scale(0.95);
+			}
+			1.25% {
+				transform: translate(0, 0) scale(1);
+			}
+			8.75% {
+				transform: translate(0, 0) scale(1);
+			}
+			9% {
+				transform: translate(13px, 22px) scale(0.95);
+			}
+			9.25% {
+				transform: translate(28px, 39px) scale(0.9);
+			}
+			9.5% {
+				transform: translate(42px, 55px) scale(0.85);
+			}
+			9.75% {
+				transform: translate(56px, 70px) scale(0.8);
+			}
+			10% {
+				transform: translate(115px, 124px) scale(0.59);
+			}
+			100% {
+				transform: translate(115px, 124px) scale(0.59);
 			}
 		}
 	}
-}
 
-@keyframes cat-eye-left {
-	40% {
-		transform: translate(0, 0);
+	&__eye-left {
+		animation: linear infinite;
+		animation-duration: 13s;
+		animation-delay: 9s;
+		animation-name: eye-open-left;
+		animation-fill-mode: both;
+
+		@keyframes eye-open-left {
+			0% {
+				transform: translate(44px, 90px) scale(0.70);
+			}
+			0.25% {
+				transform: translate(25px, 52px) scale(0.85);
+			}
+			0.5% {
+				transform: translate(16px, 33px) scale(0.92);
+			}
+			0.75% {
+				transform: translate(14px, 27px) scale(0.94);
+			}
+			1% {
+				transform: translate(7px, 13px) scale(0.98);
+			}
+			1.25% {
+				transform: translate(0, 0) scale(1);
+			}
+			8.75% {
+				transform: translate(0, 0) scale(1);
+			}
+			9% {
+				transform: translate(7px, 13px) scale(0.98);
+			}
+			9.25% {
+				transform: translate(14px, 27px) scale(0.94);
+			}
+			9.5% {
+				transform: translate(16px, 33px) scale(0.92);
+			}
+			9.75% {
+				transform: translate(25px, 52px) scale(0.85);
+			}
+			10% {
+				transform: translate(44px, 90px) scale(0.70);
+			}
+			100% {
+				transform: translate(44px, 90px) scale(0.70);
+			}
+		}
 	}
 
-	50% {
-		transform: translate(-71px, 31px);
+	&__pupil-right {
+		animation: linear infinite;
+		animation-duration: 13s;
+		animation-delay: 1.5s;
+		animation-fill-mode: both;
+		animation-name: eye-pupil-right;
+
+		@keyframes eye-pupil-right {
+			0% {
+				transform: translate(0, 0);
+			}
+			2% {
+				transform: translate(-20px, 40px);
+			}
+			60% {
+				transform: translate(-20px, 40px);
+			}
+			62% {
+				transform: translate(0, 0);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+		}
 	}
 
-	60% {
-		transform: translate(0, 0);
+	&__pupil-left {
+		animation: linear infinite;
+		animation-duration: 13s;
+		animation-delay: 1.5s;
+		animation-fill-mode: both;
+		animation-name: eye-pupil-left;
+
+		@keyframes eye-pupil-left {
+			0% {
+				transform: translate(0, 0);
+			}
+			2% {
+				transform: translate(-80px, 30px);
+			}
+			60% {
+				transform: translate(-80px, 30px);
+			}
+			62% {
+				transform: translate(0, 0);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+		}
 	}
 }
 
 .mouse {
-	width: 50px;
 	position: absolute;
-	right: calc(50% + 90px);
-	bottom: 120px;
-	animation: infinite ease-in-out;
-	animation-name: mouse;
-	animation-duration: 1s;
-	transform: rotateY(180deg);
-}
+	bottom: 0;
+	width: 150px;
+	animation: linear infinite;
+	animation-duration: 13s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	animation-name: eye-mouse;
 
-@keyframes mouse {
-	0% {
-		bottom: 120px;
-		transform: rotateY(180deg);
-	}
-	50% {
-		bottom: 150px;
-		transform: rotateY(0deg);
-	}
-	100% {
-		bottom: 120px;
-		transform: rotateY(180deg);
+	@keyframes eye-mouse {
+		0% {
+			//transform: rotate(0deg);
+			left: -50%;
+		}
+		2% {
+			//transform: rotate(0deg);
+			left: 25%;
+		}
+		50% {
+			//transform: rotate(180deg);
+			left: 25%;
+		}
+		52% {
+			//transform: rotate(0deg);
+			left: -50%;
+		}
+		100% {
+			//transform: rotate(0deg);
+			left: -50%;
+		}
 	}
 }
 
 .fork {
-	width: 20px;
 	position: absolute;
-	right: calc(50% + 120px);
-	bottom: 130px;
-	z-index: -1;
-	animation: infinite ease-in-out;
-	animation-name: fork;
-	animation-duration: 1s;
-}
+	animation-fill-mode: both;
+	animation: ease-in-out infinite;
+	animation-duration: 13s;
+	animation-delay: 3.5s;
+	opacity: 0;
 
-@keyframes fork {
-	0% {
-		bottom: 140px;
-		transform: rotateY(0deg);
-		right: calc(50% + 120px);
-	}
-	50% {
-		bottom: 170px;
-		transform: rotateY(180deg);
-		right: calc(50% + 90px);
-	}
-	100% {
-		bottom: 140px;
-		transform: rotateY(0deg);
-		right: calc(50% + 120px);
+	@for $i from 7 through 0 {
+		$width: random(50) + 20px;
+		$left: random(15) + 35%;
+		$bottom: random(50) + 300px;
+
+		&-#{$i} {
+			width: $width;
+			bottom: $bottom;
+			left: $left;
+			animation-name: fork-#{$i};
+		}
+
+		@keyframes fork-#{$i} {
+			0% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			5% {
+				opacity: 0;
+				bottom: $bottom + random(150) + 300px;
+			}
+			10% {
+				opacity: 0;
+				bottom: $bottom;
+			}
+			11% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			16% {
+				opacity: 0;
+				bottom: $bottom + random(150) + 300px;
+			}
+			21% {
+				opacity: 0;
+				bottom: $bottom;
+			}
+			22% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			27% {
+				opacity: 0;
+				bottom: $bottom + random(150) + 300px;
+			}
+			100% {
+				opacity: 0;
+				bottom: $bottom;
+			}
+		}
 	}
 }
 
 .heart {
-	width: 20px;
 	position: absolute;
-	right: calc(50% + 120px);
-	bottom: 130px;
-	z-index: -1;
-	animation-duration: 1s;
-}
+	animation-fill-mode: both;
+	animation: ease-in-out infinite;
+	animation-duration: 13s;
+	animation-delay: 3s;
+	opacity: 0;
 
-@for $i from 10 through 0 {
-	$width: random(50) + 20px;
-	$right: random(50) + 30%;
-	$bottom: random(150) + 130px;
+	@for $i from 10 through 0 {
+		$width: random(50) + 20px;
+		$bottom: random(150) + 130px;
+		$left: random(10) + 25%;
 
-	.heart-#{$i} {
-		width: $width;
-		right: $right;
-		bottom: $bottom;
-		animation: infinite ease-in-out;
-		animation-name: heart-#{$i};
-		animation-duration: 3s;
-	}
-
-	@keyframes heart-#{$i} {
-		0% {
-			opacity: 1;
+		&-#{$i} {
 			width: $width;
+			bottom: $bottom;
+			left: $left;
+			animation-name: heart-#{$i};
 		}
 
-		100% {
-			bottom: $bottom + random(50) + 80px;
-			opacity: 0;
+		@keyframes heart-#{$i} {
+			0% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			5% {
+				opacity: 0;
+				bottom: $bottom + random(50) + 180px;
+			}
+			10% {
+				opacity: 0;
+				bottom: $bottom;
+			}
+			11% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			16% {
+				opacity: 0;
+				bottom: $bottom + random(50) + 180px;
+			}
+			21% {
+				opacity: 0;
+				bottom: $bottom;
+			}
+			22% {
+				opacity: 1;
+				bottom: $bottom;
+			}
+			27% {
+				opacity: 0;
+				bottom: $bottom + random(50) + 180px;
+			}
+			100% {
+				opacity: 0;
+				bottom: $bottom;
+			}
 		}
 	}
 }
@@ -249,6 +445,37 @@
 
 	.cls-8 {
 		fill: #5b442f
+	}
+}
+
+.mouse {
+	.cls-2 {
+		fill: #a8a2a2
+	}
+
+	.cls-2, .cls-3, .cls-5 {
+		stroke-miterlimit: 10
+	}
+
+	.cls-2, .cls-3 {
+		stroke-width: 5px
+	}
+
+	.cls-2, .cls-3, .cls-5 {
+		stroke: #1d1d1b
+	}
+
+	.cls-3 {
+		fill: #fff
+	}
+
+	.cls-4 {
+		fill: #1d1d1b
+	}
+
+	.cls-5 {
+		fill: none;
+		stroke-width: 3px
 	}
 }
 </style>
